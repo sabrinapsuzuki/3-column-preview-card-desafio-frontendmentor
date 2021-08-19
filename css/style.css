@@ -1,0 +1,150 @@
+body {
+  width: 1440;
+  height: 800px;
+  background: #f2f2f2;
+}
+
+img {
+  margin-top: 47px;
+  margin-left: 47px;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-left: 47px;
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  margin-top: 40px;
+  margin-left: 47px;
+  margin-right: 35px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card {
+  width: 900px;
+  height: 498px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.grid {
+  width: 300px;
+  height: 498px;
+  float: left;
+}
+
+.sedans {
+  background: #e28525;
+  border-radius: 8px 0 0 8px;
+}
+
+.suvs {
+  background: #016972;
+}
+
+.luxury {
+  background: #00403f;
+  border-radius: 0 8px 8px 0;
+}
+
+.sedans .btn {
+  background: hsl(0, 0%, 95%);
+  width: 145px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #e28525;
+  padding-top: 12.5px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 47px;
+}
+
+.sedans .btn:hover {
+  background: #e28525;
+  width: 145px;
+  height: 50px;
+  border-radius: 25px;
+  border: hsl(0, 0%, 95%);
+  border-style: solid;
+  margin: 0 auto;
+  font-size: 15px;
+  color: hsl(0, 0%, 95%);
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 47px;
+}
+.suvs .btn {
+  background: hsl(0, 0%, 95%);
+  width: 145px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #016972;
+  padding-top: 12.5px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 47px;
+}
+
+.suvs .btn:hover {
+  background: #016972;
+  width: 145px;
+  height: 50px;
+  border-radius: 25px;
+  border: hsl(0, 0%, 95%);
+  border-style: solid;
+  margin: 0 auto;
+  font-size: 15px;
+  color: hsl(0, 0%, 95%);
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 47px;
+}
+
+.luxury .btn {
+  background: hsl(0, 0%, 95%);
+  width: 145px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #00403f;
+  padding-top: 12.5px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 47px;
+}
+
+.luxury .btn:hover {
+  background: #00403f;
+  width: 145px;
+  height: 50px;
+  border-radius: 25px;
+  border: hsl(0, 0%, 95%);
+  border-style: solid;
+  margin: 0 auto;
+  font-size: 15px;
+  color: hsl(0, 0%, 95%);
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 47px;
+}
